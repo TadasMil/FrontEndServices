@@ -75,3 +75,111 @@
     margin: 0 2rem 2rem 0;
     line-height: 40px;
 }
+
+.home-projects{
+    margin: 2rem auto;
+    width: 80%;
+    text-align: center;
+}
+
+.home-projects h3{
+    margin: 2rem 1rem 0 1rem;
+    letter-spacing: 5px;
+    color: #5e0866;
+    font-size: 1.8rem;
+    text-transform: uppercase;
+    text-align: center;
+}
+
+.home-projects h3 span{
+    padding-bottom: 10px;
+    border-bottom: 4px solid #2BCEA7;;
+    border-radius: 2px;
+}
+
+.home-projects-list{
+    display: flex;
+    justify-content: space-evenly;
+    max-width: 1500px;
+    margin: 4rem auto;
+    position: relative;
+}
+
+.home-project-item{
+    margin: 2rem 1rem;
+
+}
+
+.home-project-item-middle{
+    position: relative;
+    bottom: 40px;
+}
+
+.home-project-item img{
+    height: 350px;
+    width: auto;
+    border-radius: 50%;
+}
+
+.home-project-item h4{
+    font-size: 1.5rem;
+    margin: 10px 0;
+    font-weight: 900;
+    color: #5e0866;
+}
+
+.home-project-item p{
+    margin: 10px 0;
+    color: rgb(128, 128, 128);
+}
+
+.home-project-item a{
+    color: #5e0866;
+    font-size: 1.2rem;
+    cursor: pointer;
+    border-bottom: 2px solid #2BCEA7;
+    padding: 5px 0;
+}
+
+.home-about{
+    width: 90%;
+    margin: 0 auto;
+    max-width: 1300px;
+}
+
+.home-about-img-text{
+    position: relative;
+    display: flex;
+}
+
+
+.home-about-img img{
+    width: 70%;
+    height: auto;
+    -webkit-box-shadow: 5px 2px 101px -29px rgba(0,0,0,0.75);
+    -moz-box-shadow: 5px 2px 101px -29px rgba(0,0,0,0.75);
+    box-shadow: 5px 2px 101px -29px rgba(0,0,0,0.75);
+}
+
+.home-about-text{
+    position: absolute;
+    left: 600px;
+    margin: auto;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.home-about-text h3{
+    margin: 10px 10px 10px 0;
+    color: #5e0866;
+    font-size: 1.5rem;
+    text-transform: capitalize;
+}
+
+.home-about-text p{
+    line-height: 30px;
+    margin: 0 10px 10px 0;
+    color: rgb(65, 65, 65);
+}

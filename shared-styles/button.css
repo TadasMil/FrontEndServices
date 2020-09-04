@@ -23,6 +23,17 @@
     border: 1px solid white;
 }
 
+.button-purple{
+    padding: 10px;
+    background-color: transparent;
+    color: #5e0866;
+    border-radius: 30px;
+    font-weight: bold;
+    outline: none;
+    border: 1px solid #5e0866;
+    width: 200px;
+}
+
 .button-transparent:hover{
     background-color: #ffffff;
     color: #5e0866;
