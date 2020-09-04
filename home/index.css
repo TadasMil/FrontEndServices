@@ -1,0 +1,77 @@
+.home-background{
+    height: 100vh;
+    background:url('../assets/images/back-home.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.nav-bar{
+    display: flex;
+    justify-content: space-evenly;
+    max-width: 1500px;
+    width: 80%;
+    margin: auto;
+}
+
+.nav-bar img{
+    height: 60px;
+    width: auto;
+}
+
+.nav-bar-elements{
+    display: flex;
+    align-items: center;
+    margin: 0 10px;
+}
+
+.nav-bar-elements li{
+    list-style: none;
+}
+
+.nav-bar-elements li a{
+    text-decoration: none;
+    color: #ffffff;
+    margin: 0 10px;
+}
+
+.nav-bar-contact{
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+}
+
+.nav-bar-number{
+    display: flex;  
+    background-color: #ffffff;
+    padding: 10px 15px;
+    border-radius: 20px;
+}
+
+.phone{
+    color: #5e0866;
+}
+
+.nav-bar-number p{
+    margin: 0 0 0 10px;
+}
+
+.home-presentation{
+    width: 80%;
+    margin: 4rem auto 4rem auto;
+}
+
+.home-presentation-list{
+    width: 70%;
+    color: #ffffff;
+}
+
+.home-presentation-list h3{
+    font-size: 4rem;
+    margin: 2rem 2rem 2rem 0;
+}
+
+.home-presentation-list p{
+    margin: 0 2rem 2rem 0;
+    line-height: 40px;
+}
