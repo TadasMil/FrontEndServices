@@ -58,7 +58,7 @@
 
 .home-presentation{
     width: 80%;
-    margin: 4rem auto 4rem auto;
+    margin: 56px auto 56px auto;
 }
 
 .home-presentation-list{
@@ -67,7 +67,7 @@
 }
 
 .home-presentation-list h3{
-    font-size: 4rem;
+    font-size: 5vw;
     margin: 2rem 2rem 2rem 0;
 }
 
@@ -182,4 +182,97 @@
     line-height: 30px;
     margin: 0 10px 10px 0;
     color: rgb(65, 65, 65);
+}
+
+.home-short-course{
+    width: 90%;
+    margin: 6rem auto;
+    text-align: center;
+}
+
+.home-short-course h3{
+    font-size: 3vw;
+}
+
+.home-short-course-price{
+    margin: 1rem 1rem;
+    display: flex;
+    justify-content: center;
+}
+
+.home-short-course-price h5,
+.home-short-course-price p{
+    font-size: 1.2rem;
+}
+
+.home-short-course-price h5{
+    color: #5e0866
+}
+
+.home-short-corse-description > p{
+    margin: 20px 3rem;
+    font-size: 1rem;
+}
+
+.home-short-corse-description p:nth-child(2){
+    font-size: 0.7rem;
+}
+
+.home-short-road{
+    display: flex;
+    width: 90%;
+    margin: 3rem auto;
+    justify-content: center;
+    color: #5e0866;
+}
+
+.home-short-road span{
+    font-size: 5vw;
+}
+
+.home-short-road span{
+    margin: 0 50px;
+}
+
+.home-short-road-item p{
+    margin: 10px 10px;
+    color: #000000;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+.home-salary{
+    background-color: #5e0866;
+    padding: 1rem;
+}
+
+.home-salary h3{
+    color: #ffffff;
+    text-align: center;
+    margin: 2rem;
+    font-size: 3vw; 
+}
+
+.home-salary-list{
+    width: 80%;
+    margin: auto;
+}
+
+.home-salary-skills{
+    margin: 1.5rem;
+    background-color: #ffffff;
+    padding: 20px;
+    border-radius: 20px;
+    -webkit-box-shadow: -4px 4px 35px -1px #000000; 
+    box-shadow: -4px 4px 35px -1px #000000;
+}
+
+.home-salary-skills p span{
+    color: #5e0866;
+    font-weight: bold;
+    font-size: 1.2rem;
+}
+
+.home-salary-skills p{
+    line-height: 30px;
 }
