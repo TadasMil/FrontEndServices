@@ -7,6 +7,8 @@
     <script src="https://kit.fontawesome.com/82b111cf0f.js" crossorigin="anonymous"></script>
     <link rel="stylesheet" href="../shared-styles/shared.css"/>
     <link rel="stylesheet" href="../shared-styles/button.css"/>
+    <link rel="stylesheet" href="../shared-styles/footer.css" />
+    <link rel="stylesheet" href="../shared-styles/nav-bar.css" />
     <link rel="stylesheet" href="index.css"/>
     <title>Learn FrontEnd</title>
 </head>
@@ -30,13 +32,24 @@
                         </div>
                     </div>
                 </nav>
+                <nav class="nav-bar-mobile">
+                    <img src="../assets/images/logo.png" alt='logo'/>
+                    <span class="toggle"><i class="fas fa-bars"></i></span>
+                </nav>
+                    <div class="nav-bar-mobile-links">
+                        <li><a href="#">Pradinis</a></li>
+                        <li><a href="#">Paslaugos</a></li>
+                        <li><a href="#">Mūsų tikslai</a></li>
+                        <li><a href="#">Galerija</a></li>
+                        <li><a href="#">Kontaktai</a></li>
+                    </div>
             </header>
            <section class="home-presentation">
                 <div class="home-presentation-list">
                     <h3>Išmok kūrybiškai susikurti savo svetainės dizainą</h3>
-                    <p>Užsirašyk į kursus ir išmok iš tikrų profesionalų kurti <br/> kokybišką, gražų ir naujovišką svetainės dizainą. <br/> Draugai ir šeima tau pavydės.</p>
+                    <p>Užsirašyk į kursus ir išmok iš tikrų profesionalų kurti kokybišką, gražų ir naujovišką svetainės dizainą. <br/> <span>Draugai ir šeima tau pavydės.</span></p>
                 </div>
-                <div>
+                <div class="home-presentation-buttons">
                     <button class="button-white">Peržiūrėti paslaugas</button>
                     <button class="button-white button-transparent">Apie mūsų kompanija</button>
                 </div>
@@ -130,7 +143,7 @@
                     </p>
                 </div>
                 <div class="home-salary-skills">
-                    <p><span>„JavaScript“ - </span> „JavaScript“ avaScript yra svarbiausias įrankis norint tinklapiui suteikti dinamiškų funkcijų. Ši kalba atitinka ECMAScript  standarto specifikaciją. Pradėti mokytis šią kalbą nuo nulio – svarbus naujas etapas jūsų programuotojo karjeroje.
+                    <p><span>„JavaScript“ - </span> „JavaScript“ yra svarbiausias įrankis norint tinklapiui suteikti dinamiškų funkcijų. Ši kalba atitinka ECMAScript  standarto specifikaciją. Pradėti mokytis šią kalbą nuo nulio – svarbus naujas etapas jūsų programuotojo karjeroje.
                     </p>
                 </div>
                 <div class="home-salary-skills">
@@ -152,6 +165,68 @@
                 </div>
             </div>
         </section>
+
+        <section class="home-last">
+            <h3><span>Nori sužinoti daugiau?</span></h3>
+            <p>Užsiregistruok į kursus ir mes tau papasakosim plačiau apie Front End programavimo kursus!</p>
+            <button class="button-white button-purple">Registruotis</button>
+        </section> 
     </main>
+
+    <footer class="footer">
+        <div class="footer-area">
+            <div class="footer-info">
+                <h4>Lokacijos</h4>
+                <div class="footer-info-list-location">
+                    <span><i class="fas fa-map-marker-alt"></i></span>
+                    <p>Vilnius, Salomėjos neries g. 100</p>
+                </div>
+                <div class="footer-info-list-location">
+                    <span><i class="fas fa-map-marker-alt"></i></span>
+                    <p>Kaunas, Kregždučių g. 25</p>
+                </div>
+                <div class="footer-info-list-location">
+                    <span><i class="fas fa-map-marker-alt"></i></span>
+                    <p>Klaipėda, Bangų 6</p>
+                </div>
+            </div>
+            <div class="footer-info">
+                <h4>Navigacija</h4>
+                <div class="footer-info-list">
+                    <a>Paslaugos</a>
+                    <a>Mūsų tikslai</a>
+                    <a>Galerija</a>
+                    <a>Kontaktai</a>
+                </div>
+            </div>
+            <div class="footer-info">
+                <h4>Paslaugos</h4>
+                <div class="footer-info-list">
+                    <a>Front End kursai</a>
+                    <a>UI/UX kursai</a>
+                    <a>Javascript kursai</a>
+                </div>
+            </div>
+            <div class="footer-info">
+                <div class="contact-list">
+                    <div class="contact">
+                        <h4>Kontaktai</h4>
+                        <p>frontendkursai@inbox.lt</p>
+                        <p>+370 6158957</p>
+                    </div>
+                    <div class="contact">
+                        <h4>Socialiniai tinklai</h4>
+                        <div class="social">
+                            <span><a href="https://www.facebook.com/"><i class="fab fa-facebook"></i></a></i></span>
+                            <span><a href="https://www.instagram.com/"><i class="fab fa-instagram"></i></a></span>
+                            <span><a href="https://twitter.com/?lang=en"><i class="fab fa-twitter"></i></a></span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script src="../shared-styles/Toggle.js"></script> 
 </body>
 </html>

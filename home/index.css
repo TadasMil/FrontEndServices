@@ -6,56 +6,6 @@
     background-position: center;
 }
 
-.nav-bar{
-    display: flex;
-    justify-content: space-evenly;
-    max-width: 1500px;
-    width: 80%;
-    margin: auto;
-}
-
-.nav-bar img{
-    height: 60px;
-    width: auto;
-}
-
-.nav-bar-elements{
-    display: flex;
-    align-items: center;
-    margin: 0 10px;
-}
-
-.nav-bar-elements li{
-    list-style: none;
-}
-
-.nav-bar-elements li a{
-    text-decoration: none;
-    color: #ffffff;
-    margin: 0 10px;
-}
-
-.nav-bar-contact{
-    display: flex;
-    align-items: center;
-    cursor: pointer;
-}
-
-.nav-bar-number{
-    display: flex;  
-    background-color: #ffffff;
-    padding: 10px 15px;
-    border-radius: 20px;
-}
-
-.phone{
-    color: #5e0866;
-}
-
-.nav-bar-number p{
-    margin: 0 0 0 10px;
-}
-
 .home-presentation{
     width: 80%;
     margin: 56px auto 56px auto;
@@ -75,6 +25,55 @@
     margin: 0 2rem 2rem 0;
     line-height: 40px;
 }
+
+@media(max-width: 810px){
+    .home-presentation{
+        margin: 8rem auto;
+        width: 90%;
+    }
+
+    .home-presentation-list{
+        width: 100%;
+        margin: auto;
+        text-align: center;
+    }
+    .home-presentation-list h3{
+        font-size: 6vw;
+    }
+    .home-presentation-buttons{
+        display: flex;
+        justify-content: center;
+    }
+}
+
+@media(max-width: 550px){
+    .home-presentation-list{
+        margin-left: 0;
+        text-align: left;
+    }
+    .home-presentation-buttons{
+       justify-content: start;
+    }
+    .home-presentation-buttons .button-transparent{
+        display: none;
+    }
+
+    .home-presentation-list h3{
+        margin-right: 0;
+    }
+
+    .home-presentation-list p{
+        margin-right: 0;
+    }
+}
+
+@media(max-width: 400px){
+    .home-presentation-list span{
+        display: none;
+    }
+}
+
+/* HOME PROJECT PRESENTATION */
 
 .home-projects{
     margin: 2rem auto;
@@ -103,6 +102,7 @@
     max-width: 1500px;
     margin: 4rem auto;
     position: relative;
+    flex-wrap: wrap;
 }
 
 .home-project-item{
@@ -140,6 +140,35 @@
     border-bottom: 2px solid #2BCEA7;
     padding: 5px 0;
 }
+
+@media(max-width: 1450px){
+    .home-projects{
+        width: 90%;
+    }
+}
+
+@media(max-width: 1300px){
+    .home-project-item-middle{
+        bottom: 0;
+    }
+
+    .home-project-item img{
+       border-radius: 0;
+    }
+}
+
+
+@media(max-width: 900px){
+    .home-project-item{
+        width: 100%;
+    }
+    .home-project-item img{
+        width: 100%;
+        height: auto;
+    }
+}
+
+/* HOME ABOUT */
 
 .home-about{
     width: 90%;
@@ -183,6 +212,33 @@
     margin: 0 10px 10px 0;
     color: rgb(65, 65, 65);
 }
+
+@media(max-width: 1100px){
+    .home-about-text{
+        left: 400px;
+    }
+}
+
+@media(max-width: 900px){
+    .home-about-img img{
+        width: 100%;
+    }
+    .home-about-text{
+        left: 0;
+    }
+}
+
+@media(max-width: 650px){
+    .home-about{
+        margin: 2rem auto;
+    }
+    .home-about-text h3,
+    .home-about-text p{
+        text-align: center;
+    }
+}
+
+/* HOME SHORT COURSE PRESENTATION */
 
 .home-short-course{
     width: 90%;
@@ -275,4 +331,29 @@
 
 .home-salary-skills p{
     line-height: 30px;
+}
+
+.home-last{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 80%;
+    margin: 3rem auto;
+}
+
+.home-last h3{
+    font-size: 3vw;
+    color: #5e0866;
+    margin: 10px 0;
+}
+
+.home-last h3 span{
+    border-bottom: 3px solid #2BCEA7;
+    padding: 5px 0;
+}
+
+.home-last p{
+    margin: 20px 0;
+    font-size: 1.1rem;
 }
