@@ -4,11 +4,16 @@
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
+    position: relative;
 }
 
 .home-presentation{
     width: 80%;
-    margin: 56px auto 56px auto;
+    height: 100%;
+    display: flex;
+    margin: auto;
+    flex-direction: column;
+    justify-content: center;
 }
 
 .home-presentation-list{
@@ -18,7 +23,6 @@
 
 .home-presentation-list h3{
     font-size: 5vw;
-    margin: 2rem 2rem 2rem 0;
 }
 
 .home-presentation-list p{
@@ -27,14 +31,8 @@
 }
 
 @media(max-width: 810px){
-    .home-presentation{
-        margin: 110px auto;
-        width: 90%;
-    }
-
     .home-presentation-list{
         width: 100%;
-        margin: auto;
         text-align: center;
     }
     .home-presentation-list h3{
@@ -176,6 +174,10 @@
 @media(max-width: 600px){
     .home-projects h3{
         font-size: 5vw;
+    }
+
+    .home-project-item{
+        margin: 1rem 1rem;
     }
 }
 
@@ -351,6 +353,7 @@
     }
     .home-short-road{
         flex-direction: column;
+        margin: 1rem auto;
     }
 
     .home-short-road span{
@@ -378,11 +381,7 @@
     }
 }
 
-@media(max-width: 550px){
-  
 
-
-}
 .home-salary{
     background-color: #5e0866;
     padding: 1rem;
