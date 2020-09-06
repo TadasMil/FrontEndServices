@@ -28,7 +28,7 @@
 
 @media(max-width: 810px){
     .home-presentation{
-        margin: 8rem auto;
+        margin: 110px auto;
         width: 90%;
     }
 
@@ -85,7 +85,7 @@
     margin: 2rem 1rem 0 1rem;
     letter-spacing: 5px;
     color: #5e0866;
-    font-size: 1.8rem;
+    font-size: 3vw;
     text-transform: uppercase;
     text-align: center;
 }
@@ -147,18 +147,19 @@
     }
 }
 
-@media(max-width: 1300px){
+@media(max-width: 1295px){
     .home-project-item-middle{
         bottom: 0;
-    }
-
-    .home-project-item img{
-       border-radius: 0;
     }
 }
 
 
 @media(max-width: 900px){
+    
+    .home-project-item img{
+        border-radius: 0;
+    }
+
     .home-project-item{
         width: 100%;
     }
@@ -166,13 +167,24 @@
         width: 100%;
         height: auto;
     }
+    
+    .home-projects-list{
+        margin: 2rem auto;
+    }
 }
+
+@media(max-width: 600px){
+    .home-projects h3{
+        font-size: 5vw;
+    }
+}
+
 
 /* HOME ABOUT */
 
 .home-about{
     width: 90%;
-    margin: 0 auto;
+    margin: 8rem auto;
     max-width: 1300px;
 }
 
@@ -229,12 +241,27 @@
 }
 
 @media(max-width: 650px){
+
     .home-about{
         margin: 2rem auto;
     }
-    .home-about-text h3,
+    .home-about-img-text{
+        flex-direction: column;
+    }
+    .home-about-text{
+        top: 20px;
+        position: static;
+    }
+
+}
+
+@media(max-width: 400px){
+    .home-about-text h3{
+        font-size: 1.2rem;
+    }
+
     .home-about-text p{
-        text-align: center;
+        font-size: 0.9rem;
     }
 }
 
@@ -256,18 +283,20 @@
     justify-content: center;
 }
 
-.home-short-course-price h5,
+.home-short-course-price span,
 .home-short-course-price p{
     font-size: 1.2rem;
 }
 
-.home-short-course-price h5{
-    color: #5e0866
+.home-short-course-price span{
+    color: #5e0866;
+    font-weight: bold;
 }
 
 .home-short-corse-description > p{
     margin: 20px 3rem;
     font-size: 1rem;
+    line-height: 30px;
 }
 
 .home-short-corse-description p:nth-child(2){
@@ -290,6 +319,10 @@
     margin: 0 50px;
 }
 
+.arrow-down{
+    display: none;
+}
+
 .home-short-road-item p{
     margin: 10px 10px;
     color: #000000;
@@ -297,6 +330,59 @@
     text-transform: uppercase;
 }
 
+@media(max-width: 800px){
+    .home-short-course{
+        margin: 4rem auto;
+    }
+    .home-short-course h3{
+        font-size: 4vw;
+    }
+    .home-short-corse-description > p{
+        margin: 20px 10px;
+    }
+    .home-short-road span{
+        margin: 0 20px;
+    }
+}
+
+@media(max-width: 600px){
+    .home-short-course h3{
+        font-size: 6vw;
+    }
+    .home-short-road{
+        flex-direction: column;
+    }
+
+    .home-short-road span{
+        margin: 10px 0;
+    }
+
+    .home-short-road-item p{
+        margin: 0;
+    }
+
+    .home-short-road span{
+        font-size: 10vw;
+    }
+
+    .home-short-corse-description > p{
+        font-size: 14px;
+    }
+
+    .arrow-down{
+        display: block;
+    }
+
+    .arrow-up{
+        display: none;
+    }
+}
+
+@media(max-width: 550px){
+  
+
+
+}
 .home-salary{
     background-color: #5e0866;
     padding: 1rem;
@@ -333,6 +419,26 @@
     line-height: 30px;
 }
 
+@media(max-width: 900px){
+    .home-salary h3{
+        font-size: 5vw;
+    }
+
+    .home-salary-list{
+        width: 100%;
+    }
+
+    .home-salary-skills{
+        margin: 20px 10px;
+    }
+}
+
+@media(max-width: 400px){
+    .home-salary h3{
+        font-size: 6vw;
+    }
+}
+
 .home-last{
     display: flex;
     flex-direction: column;
@@ -340,6 +446,7 @@
     align-items: center;
     width: 80%;
     margin: 3rem auto;
+    text-align: center;
 }
 
 .home-last h3{
@@ -356,4 +463,20 @@
 .home-last p{
     margin: 20px 0;
     font-size: 1.1rem;
+}
+
+@media(max-width: 780px){
+    .home-last h3{
+        font-size: 5vw;
+    }
+}
+
+@media(max-width: 550px){
+    .home-last h3{
+        font-size: 6vw;
+    }
+
+    .home-last p{
+        font-size: 0.8rem;
+    }
 }

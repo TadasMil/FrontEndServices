@@ -126,4 +126,8 @@
     .nav-bar-mobile{
         width: 90%;
     }
+
+    .nav-bar-mobile-links li a {
+        font-size: 5vw;
+    }
 }
