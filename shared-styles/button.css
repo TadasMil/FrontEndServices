@@ -1,7 +1,7 @@
 .button-white{
     padding: 10px;
     background-color: #ffffff;
-    color: #5e0866;
+    color: #232b6f;
     border-radius: 30px;
     font-weight: bold;
     outline: none;
@@ -11,7 +11,7 @@
 }
 
 .button-white:hover{
-    background-color: #5e0866;
+    background-color: #232b6f;
     color: #ffffff;
     transition: all 0.5s ease;
 }
@@ -26,16 +26,16 @@
 .button-purple{
     padding: 10px;
     background-color: transparent;
-    color: #5e0866;
+    color: #232b6f;
     border-radius: 30px;
     font-weight: bold;
     outline: none;
-    border: 1px solid #5e0866;
+    border: 1px solid #232b6f;
     width: 200px;
 }
 
 .button-transparent:hover{
     background-color: #ffffff;
-    color: #5e0866;
+    color: #232b6f;
     transition: all .5 ease-in;
 }

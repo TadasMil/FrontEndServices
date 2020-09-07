@@ -1,0 +1,30 @@
+.title-background{
+    background-color: #232b6f;
+    height: 360px;
+}
+
+.title-list-items{
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    width: 90%;
+    max-width: 1500px;
+    margin: auto;
+    justify-content: flex-end;
+    color: #ffffff;
+}
+
+.title-list-items h2{
+    font-size: 5vw;
+    margin: 15px 0;
+}
+
+.title-list-items p{
+    margin-bottom: 50px;
+}
+
+.title-about h2{
+    width: 60%;
+    font-size: 4vw;
+    margin-bottom: 50px;
+}

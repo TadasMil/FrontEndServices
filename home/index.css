@@ -1,3 +1,4 @@
+
 .home-background{
     height: 100vh;
     background:url('../assets/images/back-home.png');
@@ -8,9 +9,10 @@
 }
 
 .home-presentation{
-    width: 80%;
+    width: 90%;
     height: 100%;
     display: flex;
+    max-width: 1500px;
     margin: auto;
     flex-direction: column;
     justify-content: center;
@@ -82,7 +84,7 @@
 .home-projects h3{
     margin: 2rem 1rem 0 1rem;
     letter-spacing: 5px;
-    color: #5e0866;
+    color: #232b6f;
     font-size: 3vw;
     text-transform: uppercase;
     text-align: center;
@@ -123,7 +125,7 @@
     font-size: 1.5rem;
     margin: 10px 0;
     font-weight: 900;
-    color: #5e0866;
+    color: #232b6f;
 }
 
 .home-project-item p{
@@ -132,7 +134,7 @@
 }
 
 .home-project-item a{
-    color: #5e0866;
+    color: #232b6f;
     font-size: 1.2rem;
     cursor: pointer;
     border-bottom: 2px solid #2BCEA7;
@@ -216,7 +218,7 @@
 
 .home-about-text h3{
     margin: 10px 10px 10px 0;
-    color: #5e0866;
+    color: #232b6f;
     font-size: 1.5rem;
     text-transform: capitalize;
 }
@@ -291,7 +293,7 @@
 }
 
 .home-short-course-price span{
-    color: #5e0866;
+    color: #232b6f;
     font-weight: bold;
 }
 
@@ -310,7 +312,7 @@
     width: 90%;
     margin: 3rem auto;
     justify-content: center;
-    color: #5e0866;
+    color: #232b6f;
 }
 
 .home-short-road span{
@@ -383,23 +385,46 @@
 
 
 .home-salary{
-    background-color: #5e0866;
-    padding: 1rem;
+    margin: 1rem;
 }
 
 .home-salary h3{
-    color: #ffffff;
+    color: #232b6f;
     text-align: center;
     margin: 2rem;
     font-size: 3vw; 
 }
 
 .home-salary-list{
-    width: 80%;
+    width: 90%;
     margin: auto;
+    display: flex;
+    flex-wrap: wrap;
+    max-width: 1500px;
 }
 
 .home-salary-skills{
+    flex: 40%;
+    margin: 1rem;
+    text-align: center;
+}
+
+.home-salary-skills h5{
+    font-size: 1.5rem;
+    color: #232b6f;
+    margin: 1rem;
+}
+
+.home-salary-skills p{
+    line-height: 30px;
+    margin: 0 10px;
+}
+
+.popular-frameworks{
+    width: 100%;
+}
+
+/* .home-salary-skills{
     margin: 1.5rem;
     background-color: #ffffff;
     padding: 20px;
@@ -409,14 +434,14 @@
 }
 
 .home-salary-skills p span{
-    color: #5e0866;
+    color: #232b6f;
     font-weight: bold;
     font-size: 1.2rem;
 }
 
 .home-salary-skills p{
     line-height: 30px;
-}
+} */
 
 @media(max-width: 900px){
     .home-salary h3{
@@ -429,6 +454,20 @@
 
     .home-salary-skills{
         margin: 20px 10px;
+    }
+}
+
+@media(max-width: 700px){
+    .home-salary-list{
+        flex-direction: column;
+    }
+
+    .popular-frameworks{
+        width: auto;
+    }
+    
+    .home-salary-skills{
+      margin: 20px auto;
     }
 }
 
@@ -450,7 +489,7 @@
 
 .home-last h3{
     font-size: 3vw;
-    color: #5e0866;
+    color: #232b6f;
     margin: 10px 0;
 }
 
