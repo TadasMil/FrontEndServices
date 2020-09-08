@@ -3,7 +3,7 @@ const navBarMobile = document.querySelector(".nav-bar-mobile");
 
 window.onscroll = function () { 
     "use strict";
-    if (document.body.scrollTop >= 500 || document.documentElement.scrollTop >= 500 ){
+    if (document.body.scrollTop >= 400 || document.documentElement.scrollTop >= 400 ){
         navBar.classList.add("nav-bar-scrolled");
         navBar.classList.remove('nav-bar-transparent');
         navBarMobile.classList.add("nav-bar-scrolled");
