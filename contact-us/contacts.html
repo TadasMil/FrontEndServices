@@ -19,12 +19,11 @@
     <header class="title-background">
         <header class="home-header">
             <nav class="nav-bar">
-                <img src="../assets/images/logo.png" alt='logo'/>
+                <a href="../home/index.html"><img src="../assets/images/logo.png" alt='logo'/></a>
                 <ul class="nav-bar-elements">
                     <li><a href="../home/index.html">Pradinis</a></li>
                     <li><a href="../services/services.html">Paslaugos</a></li>
                     <li><a href="../about-us/about.html">Mūsų tikslai</a></li>
-                    <li><a href="../gallery/gallery.html">Galerija</a></li>
                     <li><a href="./contacts.html">Kontaktai</a></li>
                 </ul>
                 <div class="nav-bar-contact">
@@ -44,7 +43,6 @@
                     <li><a href="../home/index.html">Pradinis</a></li>
                     <li><a href="../services/services.html">Paslaugos</a></li>
                     <li><a href="../about-us/about.html">Mūsų tikslai</a></li>
-                    <li><a href="../gallery/gallery.html">Galerija</a></li>
                     <li><a href="./contacts.html">Kontaktai</a></li>
                 </div>
         </header>
@@ -55,7 +53,29 @@
     </header>
 
     <section class="contact-us-page">
-        <h3>Nenori laukti? Parašykite į <span>paštą</span> ar <span>skambinkite</span>.</h3>
+        <h3>Mus galite rasti:</h3>
+            <div class="contact-us-maps">
+                <div class="contact-map" id="map">
+                </div>
+                <div class="contact-us-list">
+                   <div class="contact-us-items">
+                        <h4>Aplankykite mus</h4>
+                        <p>S. Neries 100</p>
+                        <p>Vilnius, Lietuva</p>
+                   </div>
+                   <div class="contact-us-items">
+                        <h4>Susisiekite</h4>
+                        <p>Tel. Numeris: +370 6158957</p>
+                        <p>El. Paštas: frontendkursai@inbox.lt</p>
+                    </div>
+                    <div class="contact-us-items">
+                        <a href="https://www.facebook.com/"><i class="fab fa-facebook"></i></a>
+                        <a href="https://www.instagram.com/"><i class="fab fa-instagram"></i></a>
+                        <a href="https://twitter.com/?lang=en"><i class="fab fa-twitter"></i></a>
+                    </div>
+                </div>
+            </div>
+        <h3>Nenori laukti? Parašykite į <span>paštą</span> arba <span>skambinkite</span>.</h3>
        <div class="contact-select">
         <div class="contact-who-are-you">
             <h4>Kas jūs?*</h4>
@@ -97,7 +117,7 @@
             </div>
             <div class="contact-form-item">
                 <h4>El. paštas:*</h4>
-                <input  type="text" />
+                <input  type="email" />
             </div>
             <div class="contact-form-item">
                 <h4>Tel. Numeris:*</h4>
@@ -108,7 +128,7 @@
                 <textarea type="text" ></textarea>
             </div>
             <div class="contact-form-item">
-                <button class="button-white button-purple">Registruotis</button>
+                <button class="button-white button-purple">Siųsti</button>
             </div>
        </div>
 
@@ -161,7 +181,7 @@
                     <div class="contact">
                         <h4>Socialiniai tinklai</h4>
                         <div class="social">
-                            <span><a href="https://www.facebook.com/"><i class="fab fa-facebook"></i></a></i></span>
+                            <span><a href="https://www.facebook.com/"><i class="fab fa-facebook"></i></a></span>
                             <span><a href="https://www.instagram.com/"><i class="fab fa-instagram"></i></a></span>
                             <span><a href="https://twitter.com/?lang=en"><i class="fab fa-twitter"></i></a></span>
                         </div>
@@ -172,6 +192,8 @@
     </footer>
     <script src="../events/ScrollDetection.js"></script> 
     <script src="../events/Toggle.js"></script>
-    <script src="../events/DetectForm.js"></script>  
+    <script src="../events/DetectForm.js"></script> 
+    <script src="../events/Maps.js"></script>
+    <script async defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBtzxmdj5cFCJNDYL3A-MnFX9aMJH8Aryk&callback=initMap&libraries=&v=weekly"></script>
 </body>
 </html>

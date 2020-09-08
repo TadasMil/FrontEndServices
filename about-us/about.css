@@ -1,0 +1,203 @@
+.about-us{
+    width: 90%;
+    margin: auto;
+}
+
+.about-us-story{
+    display: flex;
+    margin: 2rem auto;
+    max-width: 1300px;
+}
+
+.about-us-story h3{
+    flex: 3 0 0;
+    margin: 0;
+}
+
+.about-us-title span{
+    font-size: 2rem;
+    letter-spacing: 3px;
+    display: inline-block;
+    padding: 5px 0;
+    border-bottom: 3px solid #2BCEA7;
+}
+
+.about-us-story p{
+    flex: 3 0 0;
+    line-height: 30px;
+    padding: 20px 0;
+}
+
+.gallery{
+    max-width: 1000px;
+    display: flex;
+    flex-wrap: wrap;
+    margin: 1rem auto;
+}
+
+.gallery img{
+    flex: 30%;
+    height: auto;
+    width: 250px;
+}
+
+.about-us-who{
+    margin: auto;
+    max-width: 1300px;
+}
+
+.about-us-who h3 span{
+    font-size: 2rem;
+    letter-spacing: 3px;
+    display: inline-block;
+    padding: 5px 0;
+    border-bottom: 3px solid #2BCEA7;
+}
+
+.who-we-work-list{
+    display: flex;
+    justify-content: space-between;
+    margin: 2rem auto;
+    max-width: 1300px;
+}
+
+.who-we-work-item{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    background-color: rgb(236, 236, 236);
+    padding: 40px;
+}
+
+.second{
+    margin: 0 3rem;
+}
+
+.who-we-work-item span{
+    color: #2BCEA7;
+    font-size: 36px;
+}
+
+.who-we-work-item h4{
+    margin: 10px 0;
+    font-size: 24px;
+    color: #232b6f;
+}
+
+.who-we-work-item p{
+    line-height: 30px;
+}
+
+.about-us-why-us{
+    max-width: 1300px;
+    margin: 2rem auto;
+}
+
+.why-us-list{
+    display: flex;
+    margin: 2rem auto;
+    flex-wrap: wrap;
+}
+
+.why-us-item{
+    flex: 40%;
+    display: flex;
+    margin: 20px 10px;
+}
+
+.why-us-item span{ 
+    margin: 0 20px 0 0;
+    color: #232b6f;
+    font-size: 30px;
+}
+
+.why-us-item-text h5{
+    font-size: 1.2rem;
+}
+
+.why-us-item p{
+    line-height: 25px;
+}
+
+.about-us-our-goals-items p{
+    margin: 2rem auto;
+    text-align: center;
+    width: 70%;
+    line-height: 30px;
+}
+
+.about-us-our-goals-items table{
+    text-align: center;
+    margin: 2rem auto;
+    overflow-x:auto;
+}
+
+.about-us-our-goals-items table tr th,
+.about-us-our-goals-items table tr td{
+    padding: 10px 20px;
+    border: 1px solid #232b6f;
+}
+
+.about-us-our-goals-items table tr th{
+    background-color: #232b6f;
+    color: #ffffff;
+}
+
+.about-us-our-goals-items table tr td span{
+    font-weight: bold;
+    color: #232b6f;
+}
+
+.about-our-goals{
+    max-width: 1300px;
+    margin:2rem auto;
+}
+
+@media(max-width: 1100px){
+    .second{
+        margin: 0 1rem;
+    }
+}
+
+
+@media(max-width: 1000px){
+    .about-us-story{
+        flex-direction: column;
+    }
+}
+
+@media(max-width: 940px){
+    .who-we-work-list{
+        flex-direction: column;
+    }
+    .who-we-work-item{
+        margin: 1rem 0;
+    }
+}
+
+@media(max-width: 850px){
+    .why-us-list{
+        flex-direction: column;
+    }
+    .about-us-our-goals-items p{
+        width: 100%;
+    }
+    .title-about h2{
+        font-size: 5vw;
+    }
+}
+
+@media(max-width: 600px){
+    .about-us-title,
+    .about-us-title span{
+        text-align: center;
+        font-size: 6vw !important;
+    }
+
+    .title-about h2{
+        font-size: 6vw;
+        width: 100%;
+    }
+}

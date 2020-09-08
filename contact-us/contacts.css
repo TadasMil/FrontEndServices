@@ -3,8 +3,48 @@
     margin: 2rem auto;
 }
 
+.contact-us-maps{
+    display: flex;
+    margin: 2rem auto 2rem auto;
+    max-width: 1000px;
+}
+
+#map{
+    height: 300px;
+    flex: 3 0 0;
+}
+
+.contact-us-list{
+    margin: 0 2rem;
+    flex: 2 0 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+
+}
+
+.contact-us-items h4{
+    color: #232b6f;
+    font-size: 1.4rem;
+}
+
+.contact-us-items h4, p{
+    margin: 10px 0;
+}
+
+.contact-us-items a{
+    font-size: 30px;
+    color: #232b6f;
+}
+
+.contact-us-items a:nth-child(2){
+    margin: 0 10px;
+}
+
 .contact-us-page h3{
     font-size: 2vw;
+    max-width: 1000px;
+    margin: auto;
 }
 
 .contact-us-page span{
@@ -15,7 +55,7 @@
 }
 
 .contact-select{
-    margin: 5rem auto;
+    margin: 3rem auto;
     display: flex;
     flex-direction: column;
     max-width: 1000px;
@@ -40,7 +80,7 @@
 
 .who-are-you{
     width: 180px;
-    height: 150px;
+    height: 60px;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -117,6 +157,23 @@
 }
 
 @media(max-width: 850px){
+
+    .contact-us-maps{
+        display: block;
+    }
+
+    .contact-us-list{
+        margin: 1rem 0;
+    }
+
+    #map{
+        height: 300px;
+        overflow: auto;
+        width: 100%;
+        margin: 0;
+        display: block;
+    }
+
     .contact-select{
         margin: 2rem 0;
     }
@@ -156,9 +213,24 @@
     width: 100%;
     margin: 10px 0;
     }  
+
+    .contact-form-item{
+        margin: 10px 0;
+    }
+
+    .who-are-you{
+        margin: 10px 0;
+    }
 }
 
 @media(max-width: 650px){
+
+    .contact-us-maps{
+        margin: 1rem auto 2rem auto;
+    }
+    #map{
+        height: 200px;
+    }
     .title-about h2{
         font-size: 5.5vw;
     }
