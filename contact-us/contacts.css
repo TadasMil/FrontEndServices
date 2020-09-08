@@ -1,0 +1,201 @@
+.contact-us-page{
+    width: 70%;
+    margin: 2rem auto;
+}
+
+.contact-us-page h3{
+    font-size: 2vw;
+}
+
+.contact-us-page span{
+    color: #232b6f;
+    border-bottom: 2px solid #2BCEA7;
+    padding: 3px 0;
+    cursor: pointer;
+}
+
+.contact-select{
+    margin: 5rem auto;
+    display: flex;
+    flex-direction: column;
+    max-width: 1000px;
+}
+
+.contact-who-are-you{
+    display: flex;
+    margin: 1rem 0;
+    justify-content: space-between;
+}
+
+.contact-who-are-you h4{
+    font-size: 1.5vw;
+}
+
+.contact-who-are-you-list{
+    display: flex;
+    width: 600px;
+    justify-content: space-between;
+}
+
+
+.who-are-you{
+    width: 180px;
+    height: 150px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    background-color: rgb(236, 236, 236);
+    cursor: pointer;
+    font-size: 18px;
+}
+
+
+.contact-who-are-you-list span{
+    border: none;
+}
+
+.who-are-you p{
+    font-weight: bold;
+}
+
+.who-are-you-color{
+    background-color: #232b6f;
+    color: #ffffff;
+}
+
+.contact-form-item{
+    display: flex;
+    justify-content: space-between;
+    margin: 2rem 0;
+}
+
+.contact-form-item h4{
+    font-size: 1.5vw;
+}
+
+.contact-form-item input,
+.contact-form-item textarea{
+    width: 600px;
+    padding: 10px 3px;
+    background-color: rgb(236, 236, 236);
+    outline: none;
+    border: none;
+}
+
+.contact-form-item textarea{
+    resize: none;
+    height: 100px;
+    overflow-y: auto;
+}
+
+
+@media(max-width: 1200px){
+    .contact-us-page{
+        width: 80%;
+    }
+
+    .contact-us-page h3{
+        font-size: 3vw;
+    }
+
+    
+    .contact-who-are-you h4{
+        font-size: 2.5vw;
+    }
+
+    .contact-form-item h4{
+        font-size: 2.5vw;
+    }
+
+}
+
+@media(max-width: 1000px){
+    .contact-us-page{
+        width: 90%;
+    }
+}
+
+@media(max-width: 850px){
+    .contact-select{
+        margin: 2rem 0;
+    }
+    .contact-us-page h3{
+        font-size: 3.5vw;
+    }
+
+    
+    .contact-who-are-you h4{
+        font-size: 3vw;
+    }
+
+    .contact-form-item h4{
+        font-size: 3vw;
+    }
+    .contact-us-page{
+        width: 80%;
+    }
+    .contact-who-are-you{
+        flex-direction: column;
+    }
+    .contact-who-are-you-list{
+        flex-direction: column;
+        width: 100%;
+    }
+    .who-are-you{
+        margin: 1rem 0;
+        width: 100%;
+    }
+
+    .contact-form-item{
+        flex-direction: column;
+    }
+
+    .contact-form-item input,
+    .contact-form-item textarea{
+    width: 100%;
+    margin: 10px 0;
+    }  
+}
+
+@media(max-width: 650px){
+    .title-about h2{
+        font-size: 5.5vw;
+    }
+    .contact-us-page{
+        width: 90%; 
+    }
+    .contact-us-page h3{
+        font-size: 5.5vw;
+    }
+
+    
+    .contact-who-are-you h4{
+        font-size: 5vw;
+    }
+
+    .contact-form-item h4{
+        font-size: 5vw;
+    }
+}
+
+@media(max-width: 450px){
+    .title-about h2{
+        font-size: 6.5vw;
+    }
+    .contact-us-page h3{
+        font-size: 6.5vw;
+    }
+
+    
+    .contact-who-are-you h4{
+        font-size: 6vw;
+    }
+
+    .contact-form-item h4{
+        font-size: 6vw;
+    }
+}
+
+
+

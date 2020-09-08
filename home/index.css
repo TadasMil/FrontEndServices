@@ -424,25 +424,6 @@
     width: 100%;
 }
 
-/* .home-salary-skills{
-    margin: 1.5rem;
-    background-color: #ffffff;
-    padding: 20px;
-    border-radius: 20px;
-    -webkit-box-shadow: -4px 4px 35px -1px #000000; 
-    box-shadow: -4px 4px 35px -1px #000000;
-}
-
-.home-salary-skills p span{
-    color: #232b6f;
-    font-weight: bold;
-    font-size: 1.2rem;
-}
-
-.home-salary-skills p{
-    line-height: 30px;
-} */
-
 @media(max-width: 900px){
     .home-salary h3{
         font-size: 5vw;
