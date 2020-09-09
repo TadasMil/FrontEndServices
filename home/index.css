@@ -139,6 +139,7 @@
     cursor: pointer;
     border-bottom: 2px solid #2BCEA7;
     padding: 5px 0;
+    text-decoration: none;
 }
 
 @media(max-width: 1450px){

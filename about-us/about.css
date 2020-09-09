@@ -133,6 +133,8 @@
     margin: 2rem auto;
     overflow-x: auto;
     display: block;
+    display: flex;
+    justify-content: center;
 }
 
 .about-us-our-goals-items table tr th,
